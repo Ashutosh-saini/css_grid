@@ -1,0 +1,78 @@
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  /* grid-gap: 15px; */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.grid-card-1 {
+  background: url("https://source.unsplash.com/500x500/?nature,water");
+  grid-row: span 30;
+}
+
+.grid-card-2 {
+  background: url("https://source.unsplash.com/weekly?building");
+  grid-row: span 20;
+}
+
+.grid-card-3 {
+  background: url("https://source.unsplash.com/daily");
+  grid-row: span 20;
+  grid-column: span 2;
+}
+
+.grid-card-4 {
+  background: url("https://source.unsplash.com/weekly?ocean");
+
+  grid-row: span 30;
+}
+
+.grid-card-5 {
+  background: url("https://source.unsplash.com/400x400?phone");
+  grid-row: span 30;
+}
+
+.grid-card-6 {
+  background: url("https://source.unsplash.com/500x500?model");
+  grid-row: span 20;
+  grid-column: span 2;
+}
+
+.grid-card-7 {
+  background: url("https://source.unsplash.com/300x300/?nature");
+  grid-row: span 10;
+}
+
+.grid-card-8 {
+  background: url("https://source.unsplash.com/300x300/?nature,ground");
+  grid-row: span 12;
+}
+
+.grid-card-9 {
+  background: url("https://source.unsplash.com/300x300/?nature,water");
+  grid-row: span 15;
+}
+
+.grid-card-10 {
+  background: url("https://source.unsplash.com/300x300/?nature,landscape");
+  grid-row: span 15;
+}
+
+.grid-card-11 {
+  background: url("https://source.unsplash.com/300x300/?tablet");
+  grid-row: span 15;
+}
+
+.grid-card-12 {
+  background: url("https://source.unsplash.com/300x300/?tech");
+  grid-row: span 13;
+}
